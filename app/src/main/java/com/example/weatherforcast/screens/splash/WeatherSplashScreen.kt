@@ -51,7 +51,7 @@ fun WeatherSplashScreen(
                 }
             ))
 
-        delay(1000)
+        delay(6000)
         navController.navigate(WeatherScreens.MainScreen.name + "/${defaultCity}")
     })
 
